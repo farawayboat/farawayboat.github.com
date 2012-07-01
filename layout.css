@@ -1,0 +1,63 @@
+﻿h1 {
+  text-align: center;
+}
+#gameboard {
+  position: relative;
+}
+#diag {
+  font-size: 5em;
+  position: absolute;
+  width: 100%;
+  vertical-align: middle;
+  color: Red;
+  background-color: White;
+  z-index: 100;
+}
+#gametable {
+  margin: 0 auto;
+  line-height: 1.3em;
+}
+#gametable td {
+  height: 1.5em;
+  width: 1.3em;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid Black;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #aaaaaa;
+}
+#gametable td.marked {
+  color: Red;
+}
+#gametable td.confused {
+  color: Blue;
+}
+#gametable td.turned {
+  background-color: White;
+}
+#gametable td.bomb {
+  background-color: Yellow;
+}
+#gametable td.bomb.marked {
+  background-color: White;
+}
+#container {
+  margin: auto 17%;
+}
+#plane {
+  text-align: center;
+}
+
+#statue span {
+  border-bottom: 1px solid;
+}
+div.left {
+  float: left;
+}
+div.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
