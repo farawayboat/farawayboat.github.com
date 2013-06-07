@@ -1,0 +1,125 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1 ng-switch="lang">
+      <span ng-switch-when="zh"><strong>{{ name.last }}</strong>{{ name.first }}</span>
+      <span ng-switch-default>{{ name.first }}<strong>{{ name.last }}</strong></span>
+    </h1>
+    <p>{{ sub_titile }}</p>
+  </div>
+</div>
+<div class="lang-switch">
+  <a href="#/zh">中文</a>/<a href="#/en">English</a>
+</div>
+<div class="container" ng-class="lang">
+  <div class="row-fluid">
+    <div id="aside" class="span3 aside">
+      <section>
+        <h3>{{ t_about }}</h3>
+        <address hidden-repeat="addr">
+        </address>
+        <address>
+          farawayboat#gmail.com<abbr title="Gmail"><i class="icon-envelope"></i></abbr><br>
+          <a href="http://farawayboat.github.io" target="_blank">farawayboat.github.io</a><abbr title="GitHub"><i class="icon-github"></i></abbr><br>
+          <a href="https://plus.google.com/u/0/105032309540210973753" target="_blank">gp://farawayboat</a><abbr title="Google Plus"><i class="icon-google-plus"></i></abbr><br>
+          (+86) 158-5072-0122<abbr title="Phone"><i class="icon-phone"></i></abbr>
+        </address>
+      </section>
+      <section>
+        <h3>{{ t_languages }}</h3>
+        <p>CET6</p>
+      </section>
+      <section>
+        <h3>{{ t_programming }}</h3>
+        <p>Python, Java, C<sup>&#x266F</sup>, C(++)<br>
+        JavaScript<br>
+        HTML5 &amp; CSS3</p>
+      </section>
+      <section>
+        <h3>{{ t_tools }}</h3>
+        <p>Linux, Android<br>
+        Eclipse, Sublime Text, VS<br>
+        Django, Tornado, MongoDB</p>
+      </section>
+      <section>
+        <h3>{{ t_download }}</h3>
+        <ul class="unstyled">
+          <li ng-repeat="item in downloads">
+            <a href="{{ item.url }}">{{ item.text }}<i class="icon-download-alt"></i></a></li>
+        </ul>
+
+      </section>
+    </div>
+    <!-- div.aside end -->
+    <!-- main start -->
+    <div class="span8 offset1">
+      <section>
+        <h2><span class="blue">{{ s_int.pre }}</span>{{ s_int.tail }}</h2>
+        <p>{{ interests }}</p>
+      </section>
+      <section>
+        <h2><span class="red">{{ s_edu.pre }}</span>{{ s_edu.tail }}</h2>
+        <table class="table">
+          <tbody>
+            <tr ng-repeat="item in educations">
+              <td class="period">{{ item.period }}</td>
+              <td>
+                <dl>
+                  <dt ng-bind-html-unsafe="item.summary"></dt>
+                  <dd ng-bind-html-unsafe="item.detail"></dd>
+                </dl>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2><span class="orange">{{ s_app.pre }}</span>{{ s_app.tail }}</h2>
+        <table class="table">
+          <tbody>
+            <tr ng-repeat="item in applications">
+              <td class="period">{{ item.period }}</td>
+              <td>
+                <dl>
+                  <dt ng-bind-html-unsafe="item.summary"></dt>
+                  <dd ng-bind-html-unsafe="item.detail"></dd>
+                </dl>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="hide-away">
+        <h2><span class="green">{{ s_exp.pre }}</span>{{ s_exp.tail }}</h2>
+        <table class="table">
+          <tbody>
+            <tr ng-repeat="item in experience">
+              <td class="period">{{ item.period }}</td>
+              <td>
+                <dl>
+                  <dt ng-bind-html-unsafe="item.summary"></dt>
+                  <dd ng-bind-html-unsafe="item.detail"></dd>
+                </dl>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section class="hide-away">
+        <h2><span class="purple">{{ s_pub.pre }}</span>{{ s_pub.tail }}</h2>
+        <table class="table">
+          <tbody>
+            <tr ng-repeat="item in publications">
+              <td class="period">{{ item.period }}</td>
+              <td>
+                <dl>
+                  <dt ng-bind-html-unsafe="item.summary"></dt>
+                  <dd ng-bind-html-unsafe="item.detail"></dd>
+                </dl>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </div>
+</div>

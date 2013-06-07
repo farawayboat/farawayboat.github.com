@@ -1,0 +1,126 @@
+<html ng-app="cv">
+  <head>
+    <meta charset="utf-8">
+    <title>Curriculum Vitae | Vincent Yuan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-responsive.min.css"> -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./assets/css/cv.css">
+
+  </head>
+  <body ng-view>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>vincent<strong>yuan</strong></h1>
+        <p>curriculum vitae</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row-fluid">
+        <div id="aside" class="span3 aside">
+          <section>
+            <h3>about</h3>
+            <address>
+              22 Rd. Hankou<br>
+              Gulou District, Nanjing<br>
+              210093<br>
+            </address>
+            <address>
+              farawayboat#gmail.com<abbr title="Gmail"><i class="icon-envelope"></i></abbr><br>
+              <a href="http://farawayboat.github.io" target="_blank">farawayboat.github.io</a><abbr title="GitHub"><i class="icon-github"></i></abbr><br>
+              <a href="https://plus.google.com/u/0/105032309540210973753" target="_blank">gp://farawayboat</a><abbr title="Google Plus"><i class="icon-google-plus"></i></abbr><br>
+              (+86) 158-5072-0122<abbr title="Phone"><i class="icon-phone"></i></abbr>
+            </address>
+          </section>
+          <section>
+            <h3>languages</h3>
+            <p>CET6</p>
+          </section>
+          <section>
+            <h3>programming</h3>
+            <p>Python, Java, C<sup>&#x266F</sup>, C(++)<br>
+            JavaScript<br>
+            HTML5 &amp; CSS3</p>
+          </section>
+          <section>
+            <h3>tools</h3>
+            <p>Linux, Android<br>
+            Eclipse, Sublime Text, VS<br>
+            Django, Tornado, MongoDB</p>
+          </section>
+          <section>
+            <h3>download</h3>
+            <ul class="unstyled">
+              <li>Chinese CV<i class="icon-download-alt"></i></li>
+              <li>English CV<i class="icon-download-alt"></i></li>
+            </ul>
+
+          </section>
+        </div>
+        <!-- div.aside end -->
+        <!-- main start -->
+        <div class="span8 offset1">
+          <section>
+            <h2><span class="blue">int</span>erests</h2>
+            <p>mobile apps development, web development, data mining, </p>
+          </section>
+          <section>
+            <h2><span class="red">edu</span>cation</h2>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td class="period">since 2011</td>
+                  <td>
+                    <dl>
+                      <dt>M.Eng. <span class="weak">candidate in Optical Engineering</span>
+                      <span class="weak pos-right muted">OCER/NJU</span>
+                      </dt>
+                      <dd><em>A Quantified Theory of Social Cohesion.</em></dd>
+                    </dl>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="period">2007–2011</td>
+                  <td>
+                    <dl>
+                      <dt>
+                        B.Sc. magna cum laude
+                        <span class="weak pos-right muted">Jinglin College/NJU</span>
+                      </dt>
+                      <dd>Marjoring in Computer Science</dd>
+                    </dl>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section>
+            <h2><span class="orange">app</span>lications</h2>
+            <table class="table"></table>
+          </section>
+          <section>
+            <h2><span class="green">exp</span>erience</h2>
+            <table class="table"></table>
+          </section>
+          <section>
+            <h2><span class="purple">pub</span>lications</h2>
+            <table class="table"></table>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  <script type="text/javascript">window.angular || document.write('<script src="./assets/js/angular.min.js"><\/script>')</script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js"></script>
+  <script type="text/javascript">try {angular.module('ngResource');} catch (e) {document.write('<script src="./assets/js/angular-resource.min.js"><\/script>');}</script>
+
+  <script type="text/javascript" src="./assets/js/cv.js"></script>
+</html>

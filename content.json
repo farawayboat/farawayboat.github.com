@@ -1,0 +1,122 @@
+{
+    "en": {
+        "name": {"first": "vincent", "last": "yuan"},
+        "sub_titile": "curriculum vitae",
+        "t_about": "about",
+        "t_languages": "languages",
+        "t_programming": "programming",
+        "t_tools": "tools",
+        "t_download": "download",
+        "s_int": {"pre": "int", "tail": "erests"},
+        "s_edu": {"pre": "edu", "tail": "cation"},
+        "s_app": {"pre": "app", "tail": "lication"},
+        "s_exp": {"pre": "exp", "tail": "erience"},
+        "s_pub": {"pre": "pub", "tail": "lication"},
+
+        "addr": [
+            "22 Rd. Hankou",
+            "Gulou District, Nanjing",
+            "210093"
+        ],
+        "downloads": [
+            {"text": "English CV", "url": "./file/cv_en.pdf"},
+            {"text": "Chinese CV", "url": "./file/cv_zh.pdf"}
+        ],
+        "interests": "mobile apps development, web development, data mining, NLP",
+        "educations": [
+            {
+                "period": "since 2011",
+                "summary": "M.Eng. <span class=\"weak\">candidate in Optical Engineering</span><span class=\"weak pos-right muted\">OCER/NJU</span>",
+                "detail": ""
+            },
+            {
+                "period": "2007–2011",
+                "summary": "B.Sc. magna cum laude <span class=\"weak pos-right muted\">Jinglin College/NJU</span>",
+                "detail": "Marjoring in Computer Science and Technology"
+            }
+        ],
+        "applications": [
+            {
+                "period": "2013",
+                "summary": "Equipment Management Tools",
+                "detail": "Python &amp; Android Research Project. Used for laboratory equipment management. It provide an mobile app and a web interface. The HTTP server also exposes RESTful apis. After used an Android phone to get the equipment's ID via the label on it, one can query the sepecific information of this instrument through those apis."
+            },
+            {
+                "period": "2013",
+                "summary": "Distributed Weibo Crawler Framework",
+                "detail": "Python Research Project. A simple distributed Weibo crawler framework based on <a href=\"https://bitbucket.org/chineking/weibocrawler\">the project of <em>Xuye Qin</em></a>. It can get weibo data from Sina, NetEase, Tencent, Sohu, etc, and store them in MongoDB. A few effort has been made to use zmq for communicating between master and slavers, and gevent for parallel crawling."
+            },
+            {
+                "period": "2012",
+                "summary": "Railway Ticket Management Software",
+                "detail": "Android Research Project. Installed on the Android based handheld device, to help crews with the ticket management. The app using a build-in camera to scan the QR-code on the very ticket. When failed to resolved the related ticket information of the QR-code, it tries to use the OCR method to identify the printed characters on it."
+            },
+            {
+                "period": "2011",
+                "summary": "Web-based Monitoring Module in P2P VoD System",
+                "detail": "C<sup>&#x266F</sup> Course Project. I was in charge of data analysis and visualization, but also the implementaton of the web interface."
+            }
+        ]
+
+    },
+    "zh": {
+        "name": {"first": "征帆", "last": "袁"},
+        "sub_titile": "个人简历",
+        "t_about": "联系我",
+        "t_languages": "语言",
+        "t_programming": "编程",
+        "t_tools": "工具",
+        "t_download": "下载",
+        "s_int": {"pre": "兴趣", "tail": "方向"},
+        "s_edu": {"pre": "教育", "tail": "背景"},
+        "s_app": {"pre": "项目", "tail": "经历"},
+        "s_exp": {"pre": "实习", "tail": "经历"},
+        "s_pub": {"pre": "学术", "tail": "成果"},
+
+        "addr": [
+            "江苏省南京市",
+            "汉口路 22 号",
+            "210093"
+        ],
+        "downloads": [
+            {"text": "中文简历", "url": "./file/cv_zh.pdf"},
+            {"text": "英文简历", "url": "./file/cv_en.pdf"}
+        ],
+        "interests": "手机应用开发, Web 开发, 移动互联网, 数据挖掘及自然语言处理",
+        "educations": [
+            {
+                "period": "2011 至今",
+                "summary": "工程硕士 <span class=\"weak\">光学工程, 2014.07</span><span class=\"weak pos-right muted\">南京大学 工程管理学院</span>",
+                "detail": ""
+            },
+            {
+                "period": "2007–2011",
+                "summary": "理学学士 优秀毕业生 <span class=\"weak pos-right muted\">南京大学 金陵学院</span>",
+                "detail": "计算机科学与技术专业"
+            }
+        ],
+        "applications": [
+            {
+                "period": "2013",
+                "summary": "仪器设备管理工具",
+                "detail": "研究项目 (Python, Android), 用于管理实验室的仪器设备. 提供一个可以装在手机上的程序和 Web 管理界面. HTTP 服务器同时暴露出 RESTful API. 手机通过仪器上的二维码标签识别仪器 ID 后, 可通过 API 查询到仪器的具体信息. 我完成整个架构设计和代码的编写."
+            },
+            {
+                "period": "2013",
+                "summary": "微博爬虫",
+                "detail": "研究项目 (Python), 一个简单的分布式爬虫, 基于<a href=\"https://bitbucket.org/chineking/weibocrawler\">现有项目</a>完成. 主要支持从新浪微博、网易微博、腾讯微博、搜狐微博等获取数据, 并存于 MongoDB 中. 我的主要工作是修改原先的项目架构, 增加了爬虫的种类, 使用 zmq 作为各组件间的通信工具, 并添加 gevent 以支持并发抓取."
+            },
+            {
+                "period": "2012",
+                "summary": "火车卧铺客票管理软件",
+                "detail": "研究项目 (Android), 安装于手持设备上, 帮助乘务人员完成卧铺的换票工作. 使用手机摄像头扫描火车票二维码, 以录入相关的车票信息. 对于二维码不能解析的, 尝试使用 OCR 方法识别票面文字. 软件提供到站提醒、车站查询等功能. 项目由我一个人完成."
+            },
+            {
+                "period": "2011",
+                "summary": "基于 P2P 技术的流媒体点播系统的监控模块",
+                "detail": "研究项目 (C<sup>&#x266F</sup>). 父项目主要实现类似 PPLive 的功能. 在项目中我负责后台 Web 监控程序的编写和基于用户的推荐算法的实现."
+            }
+        ]
+
+    }
+}

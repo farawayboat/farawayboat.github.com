@@ -1,0 +1,142 @@
+
+/* Body and structure
+-------------------------------------------------- */
+
+body {
+  position: relative;
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.zh address, .zh dt, .zh dd, .zh p, .zh td, .zh th {
+  line-height: 150%;
+}
+h2, h3 {
+  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 40px;
+  color: #4d4d4d;
+}
+dt {
+  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color: #4d4d4d;
+}
+dt .weak {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 300;
+}
+
+/* Sections
+-------------------------------------------------- */
+
+/* padding for in-page bookmarks and fixed navbar */
+section {
+  padding-top: 30px;
+}
+section > .page-header,
+section > .lead {
+  color: #5a5a5a;
+}
+section > ul li {
+  margin-bottom: 5px;
+}
+
+table {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.table td {
+  border: none;
+  padding-left: 0;
+  position: relative;
+}
+.table .pos-right {
+  position: absolute;
+  right: 8px;
+}
+.table dd {
+  margin: 0;
+}
+.table .period {
+  width: 15%;
+}
+
+/* Base class
+------------------------- */
+.jumbotron {
+  position: relative;
+  padding-top: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 -1px 3px rgba(0,0,0,.8), 0 0 30px rgba(0,0,0,.075);
+  font-weight: 100;
+  background: #4d4d4d; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #404040 0%, #505050 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#404040), color-stop(100%,#505050)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #404040 0%,#505050 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #404040 0%,#505050 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #404040 0%,#505050 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #404040 0%,#505050 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#505050',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+  font-size: 90px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron h1 strong {
+    font-weight: 400;
+}
+.jumbotron p {
+  font-size: 36px;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+.aside {
+  text-align: right;
+}
+.aside i[class^=icon-] {
+  margin: 0 5px;
+}
+
+.blue {
+  color: #33B5E5;
+  fill: #33B5E5;
+}
+.purple {
+  color: #AA66CC;
+  fill: #AA66CC;
+}
+.green {
+  color: #99CC00;
+  fill: #99CC00;
+}
+.orange {
+  color: #FFBB33;
+  fill: #FFBB33;
+}
+.red {
+  color: #FF4444;
+  fill: #FF4444;
+}
+
+.qrcode path {
+  fill: #999;
+}
+
+.hide-away {
+  display: none;
+}
+
+.lang-switch {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 80%;
+  color: #fff;
+}
