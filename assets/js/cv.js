@@ -34,6 +34,7 @@ function langCtrl($scope, $location, $routeParams, Content) {
     Content.get(function(content) {
 
         if (!(lang in content))
+
             // lang = 'zh';
             $location.path('/zh').relace();
 
