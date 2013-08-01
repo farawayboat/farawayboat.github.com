@@ -12,7 +12,7 @@
 </div>
 <div class="container" ng-class="lang">
   <div class="row-fluid">
-    <div id="aside" class="span3 aside">
+    <div id="aside" class="col-lg-3 aside">
       <section>
         <h3>{{ t_about }}</h3>
         <address hidden-repeat="addr">
@@ -51,7 +51,7 @@
     </div>
     <!-- div.aside end -->
     <!-- main start -->
-    <div class="span8 offset1">
+    <div class="col-lg-8 col-offset-1">
       <section>
         <h2><span class="blue">{{ s_int.pre }}</span>{{ s_int.tail }}</h2>
         <p>{{ interests }}</p>

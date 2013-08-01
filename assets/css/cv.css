@@ -8,11 +8,15 @@ body {
   font-weight: 300;
   font-size: 18px;
 }
+h1, .h1 {
+  font-family: inherit;
+}
 .zh address, .zh dt, .zh dd, .zh p, .zh td, .zh th {
   line-height: 150%;
 }
-h2, h3 {
+h2, h3, .h2, .h3 {
   font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-weight: 700;
   font-size: 40px;
   color: #4d4d4d;
 }
@@ -24,7 +28,9 @@ dt .weak {
   font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: 300;
 }
-
+ul.unstyled, ol.unstyled {
+  list-style: none;
+}
 /* Sections
 -------------------------------------------------- */
 
@@ -45,7 +51,7 @@ table {
   font-size: 18px;
 }
 
-.table td {
+.table td, .table tbody>tr>td {
   border: none;
   padding-left: 0;
   position: relative;

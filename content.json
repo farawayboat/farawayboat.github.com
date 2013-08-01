@@ -26,12 +26,12 @@
         "educations": [
             {
                 "period": "since 2011",
-                "summary": "M.Eng. <span class=\"weak\">candidate in Optical Engineering</span><span class=\"weak pos-right muted\">OCER/NJU</span>",
+                "summary": "M.Eng. <span class=\"weak\">candidate in Optical Engineering</span><span class=\"weak pos-right text-muted\">OCER/NJU</span>",
                 "detail": ""
             },
             {
                 "period": "2007–2011",
-                "summary": "B.Sc. magna cum laude <span class=\"weak pos-right muted\">Jinglin College/NJU</span>",
+                "summary": "B.Sc. magna cum laude <span class=\"weak pos-right text-muted\">Jinglin College/NJU</span>",
                 "detail": "Marjoring in Computer Science and Technology"
             }
         ],
@@ -86,12 +86,12 @@
         "educations": [
             {
                 "period": "2011 至今",
-                "summary": "工程硕士 <span class=\"weak\">光学工程, 2014.07</span><span class=\"weak pos-right muted\">南京大学 工程管理学院</span>",
+                "summary": "工程硕士 <span class=\"weak\">光学工程, 2014.07</span><span class=\"weak pos-right text-muted\">南京大学 工程管理学院</span>",
                 "detail": ""
             },
             {
                 "period": "2007–2011",
-                "summary": "理学学士 优秀毕业生 <span class=\"weak pos-right muted\">南京大学 金陵学院</span>",
+                "summary": "理学学士 优秀毕业生 <span class=\"weak pos-right text-muted\">南京大学 金陵学院</span>",
                 "detail": "计算机科学与技术专业"
             }
         ],
