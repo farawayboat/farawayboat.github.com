@@ -26,20 +26,20 @@
         "educations": [
             {
                 "period": "since 2011",
-                "summary": "M.Eng. <span class=\"weak\">candidate in Optical Engineering</span><span class=\"weak pos-right text-muted\">OCER/NJU</span>",
-                "detail": ""
+                "summary": "M.Eng. <span class=\"weak\"> of Optical Engineering</span><span class=\"weak pos-right text-muted\">OCER/NJU</span>",
+                "detail": "expected 2014."
             },
             {
                 "period": "2007–2011",
                 "summary": "B.Sc. magna cum laude <span class=\"weak pos-right text-muted\">Jinglin College/NJU</span>",
-                "detail": "Marjoring in Computer Science and Technology"
+                "detail": "Majoring in Computer Science and Technology<br/>Major & minor award of People’s Scholarship, Excellent member.<br/>Monitor. Member of C.P.C."
             }
         ],
         "applications": [
             {
                 "period": "2013",
                 "summary": "Equipment Management Tools",
-                "detail": "Python &amp; Android Research Project. Used for laboratory equipment management. It provide an mobile app and a web interface. The HTTP server also exposes RESTful apis. After used an Android phone to get the equipment's ID via the label on it, one can query the sepecific information of this instrument through those apis."
+                "detail": "Python &amp; Android Research Project.  Used for laboratory equipment management. It provide an mobile app and a web interface. The HTTP server also exposes RESTful apis. After used an Android phone to get the equipment’s ID via the label on it, one can query the specific information of this instrument through those apis."
             },
             {
                 "period": "2013",
@@ -48,16 +48,29 @@
             },
             {
                 "period": "2012",
-                "summary": "Railway Ticket Management Software",
-                "detail": "Android Research Project. Installed on the Android based handheld device, to help crews with the ticket management. The app using a build-in camera to scan the QR-code on the very ticket. When failed to resolved the related ticket information of the QR-code, it tries to use the OCR method to identify the printed characters on it."
+                "summary": "Railway Ticket Management Software<span class=\"weak pos-right text-muted\">with Shanghai Railway Bureau</span>",
+                "detail": "Android Research Project. Installed on the Android based handhold device, to help crews with the ticket management. The app using a build-in camera to scan the QR-code on the very ticket. When failed to resolved the related ticket information of the QR-code, it tries to use the OCR method to identify the printed characters on it."
             },
             {
                 "period": "2011",
-                "summary": "Web-based Monitoring Module in P2P VoD System",
+                "summary": "Web-based Monitoring Module in P2P VoD System<span class=\"weak pos-right text-muted\">National 863 Program</span>",
                 "detail": "C<sup>&#x266F</sup> Course Project. I was in charge of data analysis and visualization, but also the implementaton of the web interface."
             }
+        ],
+        "experience": [
+            {
+                "period": "2012",
+                "summary": "Trend Micro<sup>&reg;</sup> campus program design competition",
+                "detail": "Team leader. We design an android LBS app which can give recommendation based on interest and personal preference and won the third prize in the division of China."
+            }
+        ],
+        "publications": [
+            {
+                "period": "2013",
+                "summary": "Software Copyright",
+                "detail": "YUAN Zhengfan, \"Railway Ticket Management Software\". Computer Software Copyright 2013SR042689. Nanjing University. May 2013"
+            }
         ]
-
     },
     "zh": {
         "name": {"first": "征帆", "last": "袁"},
@@ -86,13 +99,13 @@
         "educations": [
             {
                 "period": "2011 至今",
-                "summary": "工程硕士 <span class=\"weak\">光学工程, 2014.07</span><span class=\"weak pos-right text-muted\">南京大学 工程管理学院</span>",
-                "detail": ""
+                "summary": "工程硕士 <span class=\"weak pos-right text-muted\">南京大学 工程管理学院</span>",
+                "detail": "光学工程专业. 主要研究: 模式识别, 图像处理"
             },
             {
                 "period": "2007–2011",
                 "summary": "理学学士 优秀毕业生 <span class=\"weak pos-right text-muted\">南京大学 金陵学院</span>",
-                "detail": "计算机科学与技术专业"
+                "detail": "计算机科学与技术专业. 任班长, 多次获校优秀团员, 人民奖学金等荣誉, ☭"
             }
         ],
         "applications": [
@@ -116,7 +129,20 @@
                 "summary": "基于 P2P 技术的流媒体点播系统的监控模块",
                 "detail": "研究项目 (C<sup>&#x266F</sup>). 父项目主要实现类似 PPLive 的功能. 在项目中我负责后台 Web 监控程序的编写和基于用户的推荐算法的实现."
             }
+        ],
+        "experience": [
+            {
+                "period": "2012",
+                "summary": "趋势科技 「大趋所势」 校园程序大赛",
+                "detail": "组长, 率队设计了一个 Android 应用, 提供基于景点和喜好的 LBS 推荐服务, 获中国区季军."
+            }
+        ],
+        "publications": [
+            {
+                "period": "05/2013",
+                "summary": "软件著作权",
+                "detail": "袁征帆.「火车客票管理软件」. 软件著作权 2013SR042689. 南京大学. 五月 2013."
+            }
         ]
-
     }
 }
